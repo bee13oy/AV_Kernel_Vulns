@@ -12,7 +12,7 @@
 
 ## Steps to reproduce this vuln:
 1. Special Pools enabled for aswSP.sys (verifier /flags 0x1 /driver aswSP.sys) and then reboot the system.
-2. Run BSoD3.exe as Administrator and you will see the blue screen of death immediately.
+2. Run aswSP_BSoD1.exe as Administrator and you will see the blue screen of death immediately.
 
 ## Crash Details:
 
